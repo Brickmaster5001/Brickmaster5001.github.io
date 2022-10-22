@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Main CSS File-->
+        <link rel="stylesheet" href="style.css">
+        
+        <!--Fonts-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    </head>
+    <body>
+        <div class="main-background">
+            <div class="side-bar">
+                <div class="side-bar-blurb">
+                    <p>Hi! My name is Finn and I've been a content Designer and Developer on the Minecraft marketplace for over two years. 
+                        During that time I've filled many roles, from the technical aspects of entity creation, to level layout design, and minigame devlopment and design. Through all that I've gained experience working with skilled-individuals from across the globe</p>
+                </div>
+                <div class="side-bar-buttons">
+                    <button type="button" class="social-button">
+                        <img src="discord.png" alt="Discord" class="button-image">
+                    </button>
+                    <button type="button" class="social-button">
+                        <img src="smartphone.png" alt="Smartphone" class="button-image">
+                    </button>
+                    <button type="button" class="social-button">
+                        <img src="email.png" alt="Email" class="button-image">
+                    </button>
+                </div>
+            </div>
+            <div class="main-page">
+                <div class="top-bar">
+                    <h1 class="text">Finn Donegan</h1>
+                    <h3 class="text2">brickmaster5001</h3>
+                </div>
+                <div class="card-page">
+                    <!--<div class="maps-card">
+                        <div class="maps-column">
+                            <div class="maps-row"><img src="project1.png" class="project-image"></div>
+                            <div class="maps-row"><img src="project2.png" class="project-image"></div>
+                            <div class="maps-row"><img src="project3.png" class="project-image"></div>
+                            <div class="maps-row"><img src="project4.png" class="project-image"></div>
+                        </div>
+                    </div>
+                    <div class="experience-column">
+                        
+                    </div>
+                -->
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
+
+
+                        <div class="header-socials">
+                            <button type="button" class="social-button" onclick="discordCopy()">
+                                <img src="discord.png" alt="Discord" class="button-image">
+                                <span class="tooltiptext" id="discord">DoYouLikeStairs?#7723 · click to copy</span>
+                            </button>
+                            <button type="button" class="social-button" onclick="emailCopy()">
+                                <img src="email.png" alt="Email" class="button-image">
+                                <span class="tooltiptext" id="email">fxdonegan@gmail.com · click to copy</span>
+                            </div>
+                        </div>
