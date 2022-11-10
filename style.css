@@ -133,6 +133,41 @@ body {
     opacity: 100%;
 }
 
+.text8 {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.15rem;
+    margin: 0;
+    margin-bottom: 0.25rem;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 100%;
+    text-decoration: underline;
+}
+
+.text8:hover {
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.15rem;
+    margin: 0;
+    margin-bottom: 0.25rem;
+    font-weight: 400;
+    color: #ffffff;
+    opacity: 70%;
+}
+
+.text9 {
+    font-size: 0.85rem;
+    font-family: "Menlo", "Meslo LG", monospace;
+    margin: 0;
+    line-height: 1.70rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    opacity: 60%;
+    text-align: justify;
+
+}
+
 .nav-button {
     font-size: 1.25rem;
     font-family: "Montserrat", sans-serif;
@@ -229,7 +264,6 @@ body {
 .social-button:hover {
     width: 1.5rem;
     height: 1.5rem;
-    background-color: rgb(59, 63, 70);
     outline: 0;
     border: 0;
     border-radius: 2.5rem;
@@ -237,7 +271,10 @@ body {
     padding: 0;
     align-content: center;
     padding-top: 0.1rem;
+    opacity: 70%;
 }
+
+
 
 .social-button:hover .tooltiptext {
     visibility: visible;
@@ -245,15 +282,16 @@ body {
 
 .tooltiptext {
     visibility: hidden;
-    width: 15rem;
+    width: auto;
     background-color: rgb(59, 63, 70);
     color: #fff;
     text-align: center;
     border-radius: 6px;
     padding: 5px 0;
     bottom: 100%;
-    margin-left: -7.5rem;
     margin-bottom: 0.25rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 
     /* Position the tooltip */
     position: absolute;
@@ -261,9 +299,9 @@ body {
 }
 
 .circle {
-    width: 0.35rem;
-    height: 0.35rem;
-    border-radius: 1rem;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
     opacity: 60%;
     background-color: #ffffff;
 }
@@ -313,10 +351,29 @@ body {
     height: 8rem;
 }
 
+.project-info {
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.5rem;
+}
+
+.project-info-image-container {
+    width: 18.5rem;
+    height: 10rem;
+    border-right: 2px solid #ffffff;
+}
+
+.project-info-image {
+    width: 18.5rem;
+    height: 10rem;
+}
+
 .project-image {
     display: block;
     height: 100%;
-    width: 100%;
+    width: auto;
 }
 
 .project-showcase-item-overlay {
@@ -335,4 +392,8 @@ body {
 
 .project-showcase-item:hover .project-showcase-item-overlay {
     opacity: 0.75;
+}
+
+.project-info-text {
+    padding-left: 1rem;
 }
