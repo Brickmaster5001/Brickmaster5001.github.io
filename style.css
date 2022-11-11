@@ -311,7 +311,6 @@ body {
 ::-webkit-scrollbar {
     position: absolute;
     width: 4px;
-    padding-left: 0.5rem;
 }
 
 /* Track */
@@ -329,6 +328,33 @@ body {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
+}
+
+.image-showcase {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.image-showcase-item-small {
+    position: relative;
+    width: 14rem;
+    height: 8rem;
+}
+
+.image-showcase-item-medium {
+    position: relative;
+    width: 22rem;
+    height: 12rem;
+}
+
+.image-showcase-item-large {
+    position: relative;
+    width: 14rem;
+    height: 8rem;
 }
 
 .project-showcase {
@@ -370,6 +396,12 @@ body {
 .project-info-image {
     width: 18.5rem;
     height: 10rem;
+}
+
+.showcase-image {
+    display: block;
+    height: 100%;
+    width: auto;
 }
 
 .project-image {
