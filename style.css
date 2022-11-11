@@ -52,7 +52,6 @@ body {
     padding-bottom: 1rem;
     justify-content: space-between;
     width: 100%;
-    scrollbar-gutter: stable both-edges;
 }
 
 .content {
