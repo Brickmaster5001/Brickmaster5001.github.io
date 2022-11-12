@@ -65,35 +65,61 @@
                     </div>
                     <p class="text4">About</p>
                     <p class="text5" style="margin-bottom: 2rem;">
-                        Every year dozens of people from across the Minecraft community come together over the course of three months to put on Love Tropics. 
-                        The event always starts with a meeting——several actually. We discuss our goals for the event, what charities we could support, themes, 
-                        hosts, minigames, and much more. More meetings and a lot of planning later and we arrive at the point when we actually start making things.
+                        I don't release many of the personal projects I start and I'd like to imagine this is true for most people. Pather was my attempt at just creating and releasing <i>something</i>, regardless of polish or scale.
+                        Every part of the project I did myself——art, levels, mechanics, and design. It took roughly fifteen hours across three days and was released in a sleep deprived haze on the 29th of February, 2020.
                     </p>
                     <div class="image-showcase">
                         <div class="image-showcase-item-medium">
-                            <img src="https://brickmaster5001.github.io/assets/pather/image3.png" class="showcase-image">
+                            <img src="https://brickmaster5001.github.io/assets/pather/image1.png" class="showcase-image">
                         </div>
                         <div class="image-showcase-item-medium">
                             <img src="https://brickmaster5001.github.io/assets/pather/image4.png" class="showcase-image">
                         </div>
                     </div>
                     <p class="text5" style="margin-bottom: 2rem;">
-                        Dozens of builders, artists, modders, and moderators dedicate an honestly astounding number of hours to make Love
-                        Tropics happen. And the event is truly only possible because of this, the support of its most dedicated community 
-                        members. For every event a new map has to be built, charity specific features implemented, stream assets created, 
-                        schedules drawn up, and mingames designed. It's a lot of work, but it's worth it.
+                        The initial idea for Pather came from automation games, specifically conveyer belts. I played around with a few concepts but quickly settled on a robot which moves along
+                        player placed tracks. At this point I realized the need for checkpoints, so as to add complexity and expand what I could do with regards to level design. Because as it turns out levels are
+                        a lot harder to design when the player simply has to make a line of blocks from start > finish. The checkpoint system also aided in keeping the levels small, which for a game I initially intended
+                        to make in a single all-nighter was a necessity. 
                     </p>
-                    <p class="text5">
-                        The impact of Love Tropics cannot be quantified by only amount raised, we strive to not only host a charitable event, but an educating and 
-                        entertaining one as well. Amazing educators dedicate tremendous effort to ensure we can present accurate and engaging facts about the causes
-                        we support and talented designers and developers ensure the content of our stream is engaging and entertaining. Love Tropics isn't just the money and the event, it's 
-                        also the memories and friends we make along the way. That being said, with well over $200,000 USD raised in the past 6 years, Love Tropics has
-                        definitely succeeded in it's goal of helping the Tropics and their people.
+                    <p class="text5" style="margin-bottom: 2rem;">
+                        A bit more experimentation later and I came up with the teleporter block. However, getting it to work seamlessly was tricky. The problem was the block needed to find the closest guide block to teleport 
+                        Pathy to in the direction Pathy was facing when he arrived at the teleporter. And more importantly, this block had to be detected every time the level was tested and could only take a single tick.
                     </p>
-                    <div class="divider">
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
+                    <p class="text5" style="margin-bottom: 2rem;">
+                        The prefferable solution would have been to create a complex system in which every guide block knew about every other block and could pre-determine at runtime which block Pathy should be teleported
+                        to. That would have been too time consuming however, so recursive functions it was!
+                    </p>
+                    <div class="image-showcase">
+                        <div class="image-showcase-item-medium">
+                            <img src="https://brickmaster5001.github.io/assets/pather/image2.png" class="showcase-image">
+                        </div>
+                        <div class="image-showcase-item-medium">
+                            <img src="https://brickmaster5001.github.io/assets/pather/image6.png" class="showcase-image">
+                        </div>
+                    </div>
+                    <p class="text5" style="margin-bottom: 2rem;">
+                        Recursive functions in Minecraft work much the same as normal recursion in programming. That is if you ignore the dozen quirks, weird entity interactions, and the fact that it's a lot easier to crash Minecraft 
+                        with recursion than it is any modern IDE. But in the end it all worked out. The map was moderately succsesful and now two years later has a little over nine-hundred downloads.
+                    </p>
+                    <p class="text5" style="margin-bottom: 2rem;">
+                        I'd say I learned some big lesson from making Pather. Something about focusing on projects you know you can finish and saving the project you <i>really</i> want to make until you know forsure you can finish it. But to be honest I've heard all 
+                        that countless times before. And while I'm in the group that believes it has merit I'm also in the intersecting group which believes that starting a project, fully aware you aren't likely to finish it, isn't necessarily a bad thing.
+                    </p>
+                    <p class="text5" style="margin-bottom: 2rem;">
+                        I'm of the belief that experimentation is one of the best ways a person can improve at a craft and game design is no
+                        exception. So sure, maybe you start that big project and only get a fraction of the way into making it before
+                        some other new thing steals you away but I'd argue that isn't a bad thing. Nothing is stopping you from returning to it later and even if you never touch it again, well, theres always the next one. 
+                        Because at the end of the day, good ideas are easy, good implementations are not. 
+
+                    </p>
+                    <div class="image-showcase">
+                        <div class="image-showcase-item-medium">
+                            <img src="https://brickmaster5001.github.io/assets/pather/image5.png" class="showcase-image">
+                        </div>
+                        <div class="image-showcase-item-medium">
+                            <img src="https://brickmaster5001.github.io/assets/pather/image3.png" class="showcase-image">
+                        </div>
                     </div>
                 </div>
                 <div class="footer">
