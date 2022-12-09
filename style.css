@@ -314,7 +314,7 @@ body {
 
 /* Track */
 ::-webkit-scrollbar-track {
-    opacity: 0%;
+    background: transparent;
 }
 
 /* Handle */
