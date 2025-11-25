@@ -2,7 +2,7 @@
 <html>
     <head>
         <!--Main CSS File-->
-        <title>About</title>
+        <title>Project · Transformers</title>
         <link rel="stylesheet" href="https://brickmaster5001.github.io/style.css">
         
         <!--Fonts-->
@@ -15,6 +15,9 @@
             function emailCopy() {
                 let text = document.getElementById("email").innerHTML.substring(0, 19);
                 navigator.clipboard.writeText(text);
+            }
+            function openLinkInWindow(link) {
+                window.location=link;
             }
         </script>
         <script src="//instant.page/5.1.1" type="module"
@@ -42,32 +45,43 @@
                     </div>
                     <div class="header-text">
                         <p class="text">Finn</p>
-                        <p class="text2"><a href="https://brickmaster5001.github.io/" class="nav-button">home</a> | <a
+                        <p class="text2"><a href="https://brickmaster5001.github.io" class="nav-button">home</a> | <a
                                 href="https://brickmaster5001.github.io/about" class="nav-button">about</a> |
                             <a href="https://brickmaster5001.github.io/projects" class="nav-button">projects</a>
                         </p>
                     </div>
                 </div>
                 <div class="content">
-                    <p class="text4">Professional Background</p>
+                    <div class="project-info">
+                        <div class="project-info-image-container">
+                            <div class="project-info-image"><img src="https://brickmaster5001.github.io/assets/transformers/project_card.png" class="project-image"></div>
+                        </div>
+                        <div class="project-info-text">
+                            <a href="https://www.minecraft.net/en-us/marketplace/pdp/syclone-studios/transformers/9b2f5477-8845-4912-9c07-da0e876cd5b9" target="_blank">
+                                <p class="text8">
+                                    Transformers by Syclone Studios
+                                </p>
+                            </a>
+                            <p class="text9">
+                                This map was developed by Syclone Studios in parternship with Hasbro Games. Players take the place of classic Transformers characters and play through a linear, 9-level narrative action adventure.
+                            </p>
+                        </div>
+                    </div>
+                    <p class="text4">About</p>
                     <p class="text5">
-                        I've been in-and-around the Minecraft community for well over 8 years. I started as a camp counsellor and map maker at a local Minecraft 
-                        summer camp. I worked there for 4 years during which I gained a deep understanding of what young Minecraft players enjoy in the content 
-                        they consume. From there I worked with the Feed the Beast map team for a year, developing their map for NVIDIA as a part of their RTX marketplace program along
-                        with other projects. From FTB I moved to Cubecraft where I spent a year as a behaviour designer and developer working with an uber-talented multinational team on
-                        multiple projects. Since then I've hopped across the marketplace working as everything from a gameplay designer to project producer. For the past year I've been 
-                        working at Syclone Studios as their lead level designer and senior developer.
+                        Transformers is a linear, action adventure game, made in Minecraft. It features four playable characters and nine levels. Players control their chosen Transformer with a custom character controller, battling classic enemies and doing battle with one iconic Decepticon character per level.
                     </p>
                     <div class="divider">
                         <div class="circle"></div>
                         <div class="circle"></div>
                         <div class="circle"></div>
                     </div>
-                    <p class="text4">Experience</p>
+                    <p class="text4">My Role</p>
+                    <p class="text5"  style="margin-bottom: 2rem;">
+                        This was my first project with Syclone, which I started on as their lead level designer. I was responsible for creating every level in the final game, along with coordinating gameplay and environment assets accordingly.
+                    </p>
                     <p class="text5">
-                        I've been a content Designer and Developer on the Minecraft marketplace for four years and a Designer and Administrator at a Minecraft summer camp for four years before that.
-                        During that time I've filled many roles, from the technical aspects of entity creation, to level layout design, and
-                        minigame development and design. Additionally, in a concurrent ongoing volunteer capacity, I've worked as an organiser and minigame designer at Love Tropics for six years.
+                        Once primary level work was done, I transitioned to a development role, leading the design, creation, and refinement of our four bosses. I designed a custom currency-action system to control behaviors and create dynamic combat experiences. Each boss features a unique level created by myself that catered to the bosses ability set.
                     </p>
                 </div>
                 <div class="footer">

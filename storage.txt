@@ -55,7 +55,7 @@
                         <div class="header-socials">
                             <button type="button" class="social-button" onclick="discordCopy()">
                                 <img src="discord.png" alt="Discord" class="button-image">
-                                <span class="tooltiptext" id="discord">DoYouLikeStairs?#7723 · click to copy</span>
+                                <span class="tooltiptext" id="discord">doyoulikestairs · click to copy</span>
                             </button>
                             <button type="button" class="social-button" onclick="emailCopy()">
                                 <img src="email.png" alt="Email" class="button-image">
